@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Datasets and Saved Scalers/Models (Keep code only, models/data should be regenerated or hosted elsewhere)
+telemetry.csv
+X_train_tabular.npy
+X_test_tabular.npy
+X_train_seq.npy
+X_test_seq.npy
+scaler.joblib
+isolation_forest.joblib
+lstm_autoencoder.keras
+lstm_threshold.npy
+evaluation_plot.png
+
+# IDE folders
+.vscode/
+.idea/
+.project
+.pydevproject
+
+# PlatformIO folders
+.pio/
+.pioenvs/
