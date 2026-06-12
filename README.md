@@ -4,13 +4,11 @@ An end-to-end Machine Learning and IoT framework designed to detect physical ano
 
 The system utilizes an **Arduino-based sensor node** to capture real-time telemetry and streams it to an **edge PC** where **Isolation Forest** (classical unsupervised ML) and **LSTM Autoencoder** (deep learning reconstruction) models run real-time inference. It also includes full **ROS2 (Robot Operating System 2)** support to publish joint states and diagnostics.
 
----
-
 ## 🎥 Project Demonstration
 
 Below is a demonstration of the robotic arm running the telemetry routine and testing the AI anomaly detection system:
 
-<video src="demo_video.mp4" width="100%" controls autoplay loop muted></video>
+![Anomaly AI Detection Demo](demo_video.mp4)
 
 ---
 
